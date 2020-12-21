@@ -26,8 +26,8 @@ function setup() {
 function draw() {
   background(255,255,255);  
 Engine.update(myEng);
-rectmode(CENTER);
+rectMode(CENTER);
 rect(ground.position.x,ground.position.y,400,20);
-ellipe(RADIUS);
-ellipe(ball.position.x,ball.position.y,20,20);
+ellipseMode(RADIUS);
+ellipse(ball.position.x,ball.position.y,20,20);
 }
